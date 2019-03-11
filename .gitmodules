@@ -22,3 +22,6 @@
 [submodule "repos/mattn/emmet-vim"]
 	path = repos/mattn/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "repos/editorconfig/editorconfig-vim"]
+	path = repos/editorconfig/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
