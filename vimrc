@@ -7,17 +7,22 @@ set t_Co=256
 set noshowmode
 set number
 set cursorline
+nmap <Tab> <C-w>w
 
 " normal BACKSPACE
 set bs=2
-" nnoremap ; :
-" nnoremap : ;
 
 " NERDTree configuration
-" autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree
 let NERDTreeMinimalUI=1
+let g:NERDTreeWinPos = "right"
+let g:NERDTreeWinSize=30
+nmap <Leader>ft :NERDTreeToggle<CR>
 
-nmap <Tab> <C-w>w
+" tagbar configuration
+let g:tagbar_compact=1
+let g:tagbar_left=1
+let g:tagbar_width=30
 nmap <Leader>tt :TagbarToggle<CR>
 
 " Fugitive mapping
@@ -46,6 +51,8 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline_extensions#branch#enabled = 1
+let g:airline_skip_empty_sections = 1
+let g:airline_section_z=''
 
 nmap <leader>1 <Plug>AirlineSelectTab1
 nmap <leader>2 <Plug>AirlineSelectTab2
