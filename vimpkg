@@ -28,7 +28,7 @@ if [ ! -z "${i}" ]; then
     cd pack/base/start
     ln -s ../../../repos/${name} .
     git add .
-    git commit -am 'installed ${name} plugin'
+    git commit -am "installed ${name} plugin"
     exit
 fi
 
