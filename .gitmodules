@@ -13,3 +13,6 @@
 [submodule "repos/Shougo/vimshell.vim"]
 	path = repos/Shougo/vimshell.vim
 	url = https://github.com/Shougo/vimshell.vim.git
+[submodule "repos/Shougo/vimproc.vim"]
+	path = repos/Shougo/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
