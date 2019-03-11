@@ -6,8 +6,8 @@ set fillchars=vert:\│
 
 " normal BACKSPACE
 set bs=2
-nnoremap ; :
-nnoremap : ;
+" nnoremap ; :
+" nnoremap : ;
 
 " NERDTree configuration
 autocmd vimenter * NERDTree
@@ -30,4 +30,15 @@ nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
 nmap <leader>= <Plug>AirlineSelectNextTab
 nmap <leader>- <Plug>AirlineSelectPrevTab
-nmap <leader>q ;bp<bar>bd#<CR>
+nmap <leader>q :bp<bar>bd#<CR>
+
+" Fugitive mapping
+nmap <leader>gb :Gblame<cr>
+nmap <leader>gc :Gcommit<cr>
+nmap <leader>gd :Gdiff<cr>
+nmap <leader>gg :Ggrep
+nmap <leader>gl :Glog<cr>
+nmap <leader>gp :Git pull<cr>
+nmap <leader>gP :Git push<cr>
+nmap <leader>gs :Gstatus<cr>
+nmap <leader>gw :Gbrowse<cr>
