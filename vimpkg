@@ -1,0 +1,37 @@
+#!/bin/sh
+
+usage() { echo "Usage: $0 [-i plugin_name] [-r plugin_name]" 1>&2; exit 1; }
+
+while getopts ":i:r:" o; do
+    case "${o}" in
+        i)
+            i=${OPTARG}
+            ;;
+        r)
+            r=${OPTARG}
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+shift $((OPTIND-1))
+
+if [ -z "${i}" ] && [ -z "${r}" ]; then
+    usage
+fi
+
+if [ ! -z "${i}" ]; then
+    name=${i}
+    url=https://github.com/${i}.git
+    git submodule add ${url} repos/${name}
+    cd pack/base/start
+    ln -s ../../../repos/${name} .
+    git add .
+    git commit -am 'installed ${name} plugin'
+    exit
+fi
+
+
+
+
