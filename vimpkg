@@ -12,7 +12,8 @@ while getopts ":i:r:lu" o; do
             ;;
         u)
             u=${OPTARG}
-            git submodule update --remote --merge
+            echo "Updating plugins.."
+            git submodule update --remote --merge --recursive
             git add .
             git commit -m 'update plugins to latest version'
             ;;
