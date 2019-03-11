@@ -13,3 +13,6 @@
 [submodule "repos/tpope/vim-fugitive"]
 	path = repos/tpope/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "repos/majutsushi/tagbar"]
+	path = repos/majutsushi/tagbar
+	url = https://github.com/majutsushi/tagbar.git
