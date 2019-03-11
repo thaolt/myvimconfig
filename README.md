@@ -11,7 +11,9 @@ Just my VIM config
 * vim-airline
 * vim-fugitive
 * tagbar
+* emmet-vim
+* editorconfig-vim
 
 ## Screenshots
 
-![thaolt vim config screenshot 1](docs/static/img/screenshot1.png)
+![thaolt vim config screenshot 2](docs/static/img/screenshot2.png)
