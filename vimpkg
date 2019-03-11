@@ -2,7 +2,7 @@
 
 usage() { echo "Usage: $0 [-i plugin_name] [-r plugin_name]" 1>&2; exit 1; }
 
-while getopts ":i:r:" o; do
+while getopts ":i:r:lu" o; do
     case "${o}" in
         i)
             i=${OPTARG}
@@ -32,6 +32,13 @@ if [ ! -z "${i}" ]; then
     exit
 fi
 
-
+if [ ! -z "${r}" ]; then
+    shortname=`echo $r | rev | cut -d'/' -f1 | rev`
+    git rm pack/base/start/$shortname
+    git submodule deinit -f repos/${r}
+    git rm repos/${r}
+    rm -rf .git/modules/repos/${r}
+    git commit -m "uninstalled ${r} plugin"
+fi
 
 
