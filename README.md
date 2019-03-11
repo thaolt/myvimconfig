@@ -12,4 +12,4 @@ Just my VIM config
 * vim-fugitive
 * tagbar
 
-![thaolt vim config screenshot 1](myvimconfig/docs/static/img/screenshot1.png)
+![thaolt vim config screenshot 1](docs/static/img/screenshot1.png)
