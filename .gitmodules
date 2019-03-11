@@ -16,3 +16,6 @@
 [submodule "repos/Shougo/vimproc.vim"]
 	path = repos/Shougo/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "repos/tpope/vim-fugitive"]
+	path = repos/tpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
