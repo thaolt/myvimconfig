@@ -7,3 +7,9 @@
 [submodule "repos/Xuyanp/nerdtree-git-plugin"]
 	path = repos/Xuyanp/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "repos/vim-airline/vim-airline"]
+	path = repos/vim-airline/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "repos/Shougo/vimshell.vim"]
+	path = repos/Shougo/vimshell.vim
+	url = https://github.com/Shougo/vimshell.vim.git
