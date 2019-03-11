@@ -30,3 +30,4 @@ nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
 nmap <leader>= <Plug>AirlineSelectNextTab
 nmap <leader>- <Plug>AirlineSelectPrevTab
+nmap <leader>q ;bp<bar>bd#<CR>
