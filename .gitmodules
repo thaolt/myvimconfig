@@ -19,3 +19,6 @@
 [submodule "repos/vim-airline/vim-airline-themes"]
 	path = repos/vim-airline/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "repos/mattn/emmet-vim"]
+	path = repos/mattn/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
