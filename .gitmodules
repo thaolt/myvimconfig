@@ -16,3 +16,6 @@
 [submodule "repos/majutsushi/tagbar"]
 	path = repos/majutsushi/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "repos/vim-airline/vim-airline-themes"]
+	path = repos/vim-airline/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
