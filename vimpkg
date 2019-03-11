@@ -10,6 +10,15 @@ while getopts ":i:r:lu" o; do
         r)
             r=${OPTARG}
             ;;
+        u)
+            u=${OPTARG}
+            git submodule update --remote --merge
+            git add .
+            git commit -m 'update plugins to latest version'
+            ;;
+        l)
+            l=${OPTARG}
+            ;;
         *)
             usage
             ;;
