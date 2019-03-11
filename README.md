@@ -12,4 +12,6 @@ Just my VIM config
 * vim-fugitive
 * tagbar
 
+## Screenshots
+
 ![thaolt vim config screenshot 1](docs/static/img/screenshot1.png)
