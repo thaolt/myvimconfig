@@ -5,6 +5,18 @@ Just my VIM config
 * VIM version: 8.1
 * Colorscheme: Onedark
 
+**Table of contents**
+
+- [Installed plugins](#installed-plugins)
+- [Key bindings](#key-bindings)
+  * [Splits](#splits)
+  * [Buffers](#buffers)
+  * [Utilities](#utilities)
+  * [Git](#git)
+  * [Emmet](#emmet)
+- [vimpkg Usage](#vimpkg-usage)
+- [Screenshots](#screenshots)
+
 ## Installed plugins
 
 * NERDTree (+nerdtree-git-plugin)
@@ -21,14 +33,14 @@ it's bloated and quite slow, so I decide to make a custom configuration like thi
 
 `<leader>` key = <kbd>\\</kbd>
 
-### Splits/Windows
+### Splits
 
 | Keys | Description |
 | --- | --- |
 | <kbd>TAB</kbd> | Switch between splits |
 | <kbd>s</kbd><kbd>q</kbd> | Close split in focus |
 
-### Buffers/Tabs
+### Buffers
 
 | Keys | Description |
 | --- | --- |
