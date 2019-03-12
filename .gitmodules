@@ -25,3 +25,6 @@
 [submodule "repos/editorconfig/editorconfig-vim"]
 	path = repos/editorconfig/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "repos/zyedidia/vim-snake"]
+	path = repos/zyedidia/vim-snake
+	url = https://github.com/zyedidia/vim-snake.git
