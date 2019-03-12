@@ -81,6 +81,26 @@ Default key bindings from emmet-vim
 
 ## vimpkg Usage
 
+To be implement:
+
+```
+./vimpkg -h
+./vimpkg -v
+./vimpkg help
+./vimpkg help install
+./vimpkg help remove
+./vimpkg help list
+./vimpkg install author/package
+./vimpkg install -p base -a start author/package
+./vimpkg install -p config -a opt author/package
+./vimpkg install -p themes -a opt author/package
+./vimpkg remove author/package
+./vimpkg menu
+./vimpkg list
+```
+
+Current commands:
+
 `./vimpkg -i author/plugin_name` to install plugin from github
 
 `./vimpkg -r author/plugin_name` to remove plugin
