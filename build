@@ -1,0 +1,3 @@
+#!/usr/bin/env bash                                                                                                     
+cat vimpkg | gzip -c > vimpkg.gz
+cat launcher vimpkg.gz > vimpkg.sh
