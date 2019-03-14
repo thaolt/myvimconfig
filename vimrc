@@ -9,7 +9,6 @@ set number
 set cursorline
 
 set number relativenumber
-set nu rnu
 
 nmap <Tab> <C-w>w
 nmap s <NOP>
@@ -20,3 +19,6 @@ set bs=2
 
 packadd! myconfig
 
+set autoindent
+set smartindent
+" set cindent
