@@ -32,8 +32,6 @@ if [ -z "${i}" ] && [ -z "${r}" ]; then
     usage
 fi
 
-exit
-
 if [ ! -z "${i}" ]; then
     name=${i}
     url=https://github.com/${i}.git
